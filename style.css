@@ -6,7 +6,7 @@ style.css
 a.navbar-brand{
 	margin-left: 10px;
 	padding: 10px;
-	background-color: rgb(20, 26, 26);
+	background-color: rgb(78, 138, 138);
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 25px;
   }
@@ -27,7 +27,7 @@ a.navbar-brand{
   
   
   p{
-   color:white;
+   color:rgb(218, 11, 11);
    font-size: large;
    padding:10px;
   }
@@ -51,11 +51,11 @@ a.navbar-brand{
 	padding-top:0px;
 	padding-bottom: 0px;
 	padding-right:40px;
-	background-color:rgb(44, 46, 46);
+	background-color:rgb(63, 114, 114);
   }
   
   .nav-item.dropdown.show {
-	background-color: #ddd;
+	background-color: rgb(209, 105, 105);
   }
   
   .dropdown-menu {
@@ -79,7 +79,7 @@ a.navbar-brand{
 	}
   
 	.navbar-collapse{
-		background-color: #f8f9fa;
+		background-color: #2e4f70;
 	}
 	.navbar{
 		padding:inherit;
