@@ -2,124 +2,86 @@ style.css
 
 
 
-body{
-    background-color: #EDEDED; 
-}
-
-.navbar{
-    max-height: 50px; 
-	background-color: #cacccb; 
-    font-size: 15px; 
-}
-
-.navigation .navbar-brand{
-	color: white; 
-	margin-left: 50px; 
-	padding: inherit; 
-	font-weight: bold; 
-	background-color: #38ab87;
-	font-family: Georgia, Times, "Times New Roman", serif;
-}
-
-.dropdown-item{
-    color: #30615c; 
-}
-
-.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:active{
-    background-color:#adc7c4; 
-}
-
-.nav-link:hover{
-    background-color:#adc7c4;
-}
-
-
-/* Media Queries */
-@media (max-width: 991.98px){
-.navbar-expand-lg{
-	background-color: #38ab87;
-}
-.navbar{
-    max-height: none; 
-    padding: inherit;
-}
-.navbar div{
-    margin: inherit; 
-    background-color: white;  
-}
-.navbar-brand{
-    padding: 10px; 
-}
-
-button{
-    margin-left: auto; 
-}
-
-button:focus {
-    outline: 1px dotted;
-}
-}
-
-.description-content {
-	margin-top: 30px;
-	margin-bottom: 60px;
-	padding: 10px 30px 5px;
-	color: black;
-	background-color: white;
-}
-
-.imageNav-content {
-	margin-top: 40px;
-	margin-bottom: 20px;
-	padding: 10px 30px 40px;
-	color: black;
-	background-color: white;
-}
-.description-header, .imageNav-header {
-	padding-top: 15px; 
-	padding-left: 4px;
-	color: #38ab87;
-	font-size: 26px;
-	font-weight: bold;
-	font-family: Georgia, Times, "Times New Roman", serif;
-}
-
-img{
-	width: 100%;
-	height: 100%;
-}
-
-.description-image {
-	float: left;
-	width: 60%;
-	height: 60%;
-}
-
-p{
-	color: #414d4a;
-	font-size: 14px;
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.active, .imageNav-photo:hover{
-    border-color:#38ab87;
-    border-style: solid; 
-}
-
-.footer{
-	background-color: #505251; 
-    border-top-style: solid; 
-    border-top-width: 4px; 
-    border-top-color: #38ab87;
-    color: white; 
-    min-height: 50px; 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px; 
-    text-align: center; 
-    position: fixed;
-    padding-top: 10px; 
-	width: 100%;
-	left: 0;
-	bottom: 0;
-}
+  
+a.navbar-brand{
+	margin-left: 10px;
+	padding: 10px;
+	background-color: rgb(20, 26, 26);
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+  }
+  
+  
+  h3{
+	color: lightskyblue;
+	padding: 10px;
+  }
+  
+  .img-thumbnail{
+	padding:5px;
+	margin:5px;
+	border: solid rgb(0, 0, 0);
+  }
+  
+  
+  
+  
+  p{
+   color:white;
+   font-size: large;
+   padding:10px;
+  }
+  
+  
+  body{
+	background-color: rgb(181, 202, 202);
+  }
+  .col-md-12{
+	background-color: gray;
+	padding-top: 20px;
+	padding-bottom:40px;
+  }
+  
+  
+  .highlight{
+	border: 3px solid rgb(188, 233, 85);
+  }
+  
+  .navbar{
+	padding-top:0px;
+	padding-bottom: 0px;
+	padding-right:40px;
+	background-color:rgb(44, 46, 46);
+  }
+  
+  .nav-item.dropdown.show {
+	background-color: #ddd;
+  }
+  
+  .dropdown-menu {
+	margin: 0;
+  }
+  
+  
+  .content {
+	padding-top: 50px;
+	padding-bottom: 80px;
+	overflow: hidden;
+  }
+  
+  .content.bg-white {
+	margin-top: 15px;
+  }
+  
+  @media(max-width:767px){
+	.navbar.bg-dark{
+		background-color: rgb(44, 46, 46)!important;    
+	}
+  
+	.navbar-collapse{
+		background-color: #f8f9fa;
+	}
+	.navbar{
+		padding:inherit;
+	}
+  }
