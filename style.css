@@ -13,7 +13,7 @@ a.navbar-brand{
   
   
   h3{
-	color: rgb(36, 12, 121);
+	color: rgb(31, 11, 105);
 	padding: 10px;
   }
   
@@ -27,7 +27,7 @@ a.navbar-brand{
   
   
   p{
-   color:rgb(231, 0, 0);
+   color:rgb(42, 0, 231);
    font-size: large;
    padding:10px;
   }
@@ -75,7 +75,7 @@ a.navbar-brand{
   
   @media(max-width:767px){
 	.navbar.bg-dark{
-		background-color: rgb(68, 71, 71)!important;    
+		background-color: rgb(189, 192, 192)!important;    
 	}
   
 	.navbar-collapse{
